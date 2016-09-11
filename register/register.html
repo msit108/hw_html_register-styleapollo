@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <link rel="stylesheet" href="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page">
+
+        <div data-role="fieldcontain">
+            <form method="post" action="http://jsapplab.site88.net/echo.php">
+                <label for="txtInputText">Input text:</label>
+              
+                <input type="text"
+                       name="txtInputText" id="txtInputText" value="" placeholder="帳號" />
+                <input type="text"
+                       name="txtInputText" id="txtInputText" value="" placeholder="密碼" />
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><input type="submit" name="btnOK" value="登入" /></div>
+                    <div class="ui-block-b"><input type="submit" name="btnCancel" value="註冊" /></div>
+                </div>
+            </form>
+            <form name="login">
+                帳號:<input name="account" type="text" size="7" /><br />
+                密碼:<input name="pass" type="password" size="7" /><br />
+                <input type="submit" value="登入" />  <input type="submit" value="加入會員" />
+            </form>
+            <div data-role="fieldcontain">
+                <label for="txtSearch">Search Input:</label>
+                <input type="search" name="txtSearch" id="txtSearch" value="" />
+            </div>
+        </div>
+</body>
+</html>
